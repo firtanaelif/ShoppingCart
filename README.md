@@ -72,10 +72,3 @@ Implement a class that takes a cart and calculates the delivery cost.
 * Fixed cost is 2.99 TL.
 * Implement a class that takes a cart and calculates the delivery cost.
 
-# Final
-
-* Group Products by Category and Print the CategoryName, ProductName, Quantity, Unit Price, Total Price, Total Discount(coupon,campaign) applied
-
-* cart.print()
- 
-* At the final line print total amount and the delivery cost.
