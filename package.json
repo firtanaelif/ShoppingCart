@@ -1,0 +1,35 @@
+{
+  "name": "trendyol",
+  "version": "1.0.0",
+  "description": "trendyol case study",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec babel-node backend/server.js",
+    "test": "mocha --require @babel/register --recursive --exit"
+  },
+  "author": "elif fırtana",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mockgoose": "^8.0.4",
+    "mongoose": "^5.10.0",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/register": "^7.10.5",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cypress": "^5.0.0",
+    "mocha": "^8.1.1",
+    "nodemon": "^2.0.4"
+  }
+}
