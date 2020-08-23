@@ -81,8 +81,9 @@ Implement a class that takes a cart and calculates the delivery cost.
 * Formula is ( CostPerDelivery * NumberOfDeliveries ) + (CostPerProduct * NumberOfProducts) + Fixed Cost
 * Fixed cost is 2.99 TL.
 * Implement a class that takes a cart and calculates the delivery cost.
-* Register;
+# Register
+
  ![all text](https://github.com/firtanaelif/ShoppingCart/blob/master/frontend/public/images/register.png)
-* Sign In
+# Sign In
  ![all text](https://github.com/firtanaelif/ShoppingCart/blob/master/frontend/public/images/signIn.png)
 
