@@ -1,4 +1,4 @@
-describe("Go Sign-In Page from Home Page Test and Create Products", function () {
+describe("Go Sign-In Page from Home Page Test", function () {
   it("Visit to products page", function () {
     cy.visit("http://localhost:3000/"); // go localhost homepage
     cy.contains("Sign In").click(); //search this name, if test can find -> click on
